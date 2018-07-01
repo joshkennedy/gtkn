@@ -637,6 +637,10 @@ table {
   min-height: calc(100vh - 4rem);
 }
 
+textarea {
+  resize: none;
+}
+
 .list-reset {
   list-style: none;
   padding: 0;

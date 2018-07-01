@@ -10,19 +10,19 @@
 
 <body class="antialiased">
   <div class="bg-base p-8 min-h-screen">
-    <div class="Page relative bg-white p-8 flex flex-col items-center justify-center rounded-sm shadow-lg">
-      <form name="submit" class="w-full max-w-sm" action="/success/" netlify>
+    <div class="Page relative bg-white p-4 md:p-8 flex flex-col items-center justify-center rounded-sm shadow-lg">
+      <form name="submit" class="w-full max-w-sm" method="POST" netlify>
         <div class="mb-6">
-          <label class="block text-grey5 font-bold mb-1 md:mb-0 pr-4" for="name">Your Name</label>
+          <label class="block text-grey5 font-bold mb-1 pr-4" for="name">Your Name</label>
           <input class="bg-grey-lighter appearance-none border-2 border-grey4 rounded w-full py-2 px-4 text-grey6 leading-tight outline-none" type="text" id="name" placeholder="Robert Ryman">
         </div>
         <div class="mb-6">
-          <label class="block text-grey5 font-bold mb-1 md:mb-0 pr-4" for="email">Email</label>
+          <label class="block text-grey5 font-bold mb-1 pr-4" for="email">Email</label>
           <input class="bg-grey-lighter appearance-none border-2 border-grey4 rounded w-full py-2 px-4 text-grey6 leading-tight outline-none" id="email" type="email" placeholder="hello@bighatnocattle.net">
         </div>
         <div class="mb-6">
-          <label class="block text-grey5 font-bold mb-1 md:mb-0 pr-4" for="email">Your Story</label>
-          <textarea class="bg-grey-lighter appearance-none border-2 border-grey4 rounded w-full py-2 px-4 text-grey6 leading-tight h-64 outline-none" id="story" placeholder="Please provide a brief summary of your story"></textarea>
+          <label class="block text-grey5 font-bold mb-1 pr-4" for="email">Your Story</label>
+          <textarea class="bg-grey-lighter appearance-none border-2 border-grey4 rounded w-full p-4 text-grey6 leading-tight h-64 outline-none" id="story" placeholder="Please provide a brief summary of your story"></textarea>
         </div>
         <button class="font-bold px-8 text-left flex-auto p-3 bg-orange5 hover:bg-orange6 items-center text-gray9 leading-none rounded-full flex inline-flex outline-none" type="button">Sign Up</button>
       </form>

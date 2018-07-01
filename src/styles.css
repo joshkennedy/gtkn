@@ -6,4 +6,8 @@
   min-height: calc(100vh - 4rem);
 }
 
+textarea {
+  resize: none;
+}
+
 @tailwind utilities;
